@@ -1,1 +1,0 @@
-import"./hoisted.U75G2yMd.js";import"./auth.xl3w8pTy.js";fetch("https://v1.hitokoto.cn").then(t=>t.json()).then(t=>{const o=document.querySelector("#hitokoto_text");o.href=`https://hitokoto.cn/?uuid=${t.uuid}`,o.innerText=t.hitokoto}).catch(console.error);
